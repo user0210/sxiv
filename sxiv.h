@@ -272,6 +272,7 @@ struct opt {
 	char **filenames;
 	bool from_stdin;
 	bool to_stdout;
+	bool like_dmenu;
 	bool recursive;
 	int filecnt;
 	int startnum;
